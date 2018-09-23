@@ -16,6 +16,8 @@ function isprime() {
       // It's divisible between a bunch of numbers
       document.getElementsByClassName('result')[0].innerHTML = 'Is not prime';
     }
+  } else {
+    alert ('It is not a number.\r\nPlease put a number...');
   }
 }
 
